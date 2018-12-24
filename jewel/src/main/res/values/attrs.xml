@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--toolbar 返回键图标-->
+    <attr name="Jewel_icon_back" format="reference" />
+    <!--返回键大小-->
+    <attr name="Jewel_icon_back_size" format="dimension" />
+    <!--toolbar title-->
+    <attr name="Jewel_toolbar_title" format="string" />
+    <!--toolbar 文字 颜色-->
+    <attr name="Jewel_toolbar_title_color" format="color" />
+    <!--toolbar 背景色-->
+    <attr name="Jewel_toolbar_color" format="color" />
+    <!--状态栏颜色-->
+    <attr name="Jewel_status_color" format="color" />
+    <!--选择框 类型  矩形 圆形-->
+    <!--<attr name="Jewel_select_type" format="enum">-->
+        <!--<enum name="rectangle" value="0" />-->
+        <!--<enum name="round" value="1" />-->
+    <!--</attr>-->
+    <!--选择框 颜色-->
+    <attr name="Jewel_select_color" format="color" />
+</resources>

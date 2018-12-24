@@ -1,2 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mocaris.jewel" />
+    package="com.mocaris.jewel">
+
+    <application>
+        <activity
+            android:name=".ui.JewelActivity"
+            android:launchMode="singleInstance" />
+    </application>
+
+</manifest>

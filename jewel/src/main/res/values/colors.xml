@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="withe">#ffffff</color>
+    <color name="colorPrimary">#ff9797</color>
+    <color name="colorPrimaryDark">#a96464</color>
+    <color name="colorAccent">#ffff15</color>
+
+    <color name="jewel_activity_bg">#4F5151</color>
+</resources>

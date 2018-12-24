@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Jewel" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:homeAsUpIndicator">@drawable/s_back</item>
+        <item name="Jewel_icon_back">@drawable/s_back</item>
+        <item name="Jewel_icon_back_size">30dp</item>
+        <item name="Jewel_toolbar_title">@string/toolbar_title</item>
+        <item name="Jewel_toolbar_title_color">@color/c_toolbar_title</item>
+        <item name="Jewel_toolbar_color">@color/colorPrimary</item>
+        <!--<item name="Jewel_status_color">@color/colorPrimaryDark</item>-->
+        <!--<item name="Jewel_select_type">rectangle</item>-->
+        <item name="Jewel_select_color">@color/colorPrimary</item>
+    </style>
+
+    <style name="Jewel.default" parent="Jewel">
+
+    </style>
+
+</resources>

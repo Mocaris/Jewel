@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/Jewel_toolbar_color"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/jewel_status"
+        android:layout_width="match_parent"
+        android:layout_height="24dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/jewel_select_bar_comm"
+            android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/jewel_back"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/s_back" />
+
+            <TextView
+                android:id="@+id/jewel_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/jewel_select_bar_comm"
+                android:gravity="center"
+                android:text="?attr/Jewel_toolbar_title"
+                android:textColor="?attr/Jewel_toolbar_title_color"
+                android:textSize="@dimen/jewel_toolbar_txt_size" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/jewel_complete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/jewel_select_bar_comm"
+            android:padding="@dimen/jewel_select_bar_comm"
+            android:text="完成"
+            android:textColor="?attr/Jewel_toolbar_title_color"
+            android:textSize="@dimen/jewel_toolbar_txt_size" />
+    </RelativeLayout>
+</LinearLayout>
