@@ -20,7 +20,8 @@ public interface LoadEngine {
 
     /**
      * 加载视频
+     * 暂时没有使用
      */
-    void loadVideo();
+//    void loadVideo();
 
 }

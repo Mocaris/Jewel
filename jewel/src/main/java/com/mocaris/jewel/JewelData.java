@@ -5,12 +5,22 @@ import com.mocaris.jewel.type.MimeType;
 /**
  * @Author mocaris
  * @Date 2018/12/24-14:18
+ * 图片视频信息类
  */
 public class JewelData {
+    /**
+     * 类型
+     */
     private MimeType mimeType;
 
+    /**
+     * 源文件地址
+     */
     private String origin;
 
+    /**
+     * 预览图地址
+     */
     private String thumb;
 
     public MimeType getMimeType() {
